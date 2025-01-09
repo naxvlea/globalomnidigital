@@ -56,11 +56,11 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="p-10 rounded-3xl w-full max-w-[320px] flex-shrink-0 border-2 border-[#FFD768]"  // Added border bg-[#EDCA62]
+              className="p-10 rounded-3xl w-full max-w-[320px] flex-shrink-0 shadow-md bg-[#F9DC5C]"  //  bg-[#EDCA62] or to-[#fdc500]
             >
               <div className="mt-[-15px] flex justify-between items-center gap-1">
                 <div className="flex-1 flex flex-col">
-                  <p className="text-[#FFD768] font-medium text-[16px] mt-[5px]">
+                  <p className="text-black font-medium text-[16px] mt-[5px]">
                     <span className="text-blue-500 item">@</span>
                     {testimonial.name}
                   </p>
@@ -117,6 +117,8 @@ const Testimonials = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
+
+                  
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#FFD768"  // Stroke color applied here
