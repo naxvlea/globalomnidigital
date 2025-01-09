@@ -28,6 +28,7 @@ import videoSrc1 from "../assets/videoSrc1.mp4";
 import videoSrc2 from "../assets/videoSrc2.mp4";
 import videoSrc3 from "../assets/videoSrc3.mp4";
 import comingsoon from "../assets/comingsoon.jpg";
+import seminyaksquare from "../assets/seminyaksquare.jpg";
 import modalImage1 from "../assets/modalImage1.jpg";
 import modalImage2 from "../assets/modalImage2.jpg";
 import modalImage3 from "../assets/modalImage3.jpg";
@@ -64,12 +65,14 @@ import testiAndreAndreRPrawiradisastra from "../assets/testimonial/Andre R Prawi
 import testiAndreYabesTanuri from "../assets/testimonial/Yabes_Tanuri.png";
 import hardrocktesti from "../assets/testimonial/hardrocktesti.jpeg";
 import testiunknowprofile from  "../assets/testimonial/unknowprofile.jpeg";
+import primusgroup from  "../assets/testimonial/primusgroup.jpg";
 
 export const navLinks = [
   { id: "About", title: "About" },
   { id: "Works", title: "Works" },
   { id: "our-partners", title: "Our Partners" }, 
   { id: "Footer", title: "Contact" },
+  { id: "lng", title: "EN|IND" },
 ];
 
 
@@ -180,17 +183,12 @@ const testimonials = [
   },
   
   {
-    text: "This is another testimonial text. It provides feedback about the service.",
-    name: "Emily Davis",
-    position: "CMO of MarketGurus",
-    imgSrc: testiunknowprofile,
+    text: "Global Omni Digital has been a fantastic partner for us. Their quick response time and helpful approach make collaborations seamless, and their technology perfectly enhances our key visuals. They've truly added value to our efforts in promoting our events.",
+    name: "Callista Putri",
+    position: "Marketing Manager of Primuse Group",
+    imgSrc: primusgroup,
   },
-  {
-    text: "This is another testimonial text. It provides feedback about the service.",
-    name: "Emily Davis",
-    position: "CMO of MarketGurus",
-    imgSrc: testiunknowprofile,
-  },
+
 
 
 ];
@@ -199,14 +197,14 @@ const projects = [
   {
     name: "Sunset Road",
     description:
-      "Media Size : 1920px (W) x 768px (H) | Quantity: 1 | Operational Hours : 17 Hours (7AM - 12AM)  ",
+      "Media Size : 1920px (W) x 768px (H) | Quantity : 1 | Operational Hours : 17 Hours (7AM - 12AM)  ",
     videoSrc: videoSrc1, 
     image: carrent,
   },
   {
     name: "Ngurah Rai Airport",
     description:
-      "Media Size: 1.28m (W) x 2.888m (H) | Quantity: 20 Totem (12 LED & 8 Static) | Operational Hours: 16 Hours (8 AM - 12 AM)",
+      "Media Size: 1.28m (W) x 2.888m (H) | Quantity: 20 Totem (12 LED & 8S tatic) | Operational Hours: 16 Hours (8 AM - 12 AM)",
     videoSrc: videoSrc2,
     image: jobit,
   },
@@ -220,18 +218,18 @@ const projects = [
   {
     name: "Mall Bali Galeria Side B" ,
      description:
-     "Media Size : 17m (W) x 10m (H)  | Quantity: 1 | Operational Hours : 17 Hours (7 AM - 12 AM)",
-    //   "Sunset Road offers both 3D and non-3D advertising options. The latest technology in the industry. Request a quote for comprehensive details.",
+      "Media Size  :17m (W) x 10m (H)  | Quantity: 1 | Operational Hours : 17 Hours (7 AM - 12 AM)",
+  //   "Sunset Road offers both 3D and non-3D advertising options. The latest technology in the industry. Request a quote for comprehensive details.",
     // videoSrc: videoSrc1, // Assign imported video
      image: comingsoon,
   },
   {
-    name: "Seminyak ",
+    name: "Seminyak Square",
      description:
-     "Media Size : 960cm (W) x 384 (H)  | Quantity: 1 | Operational Hours : ",
+      "Media Size : 768cm (W) x 1984cm (H)  | Quantity: 1 | Operational Hours : ",
     //   "Sunset Road offers both 3D and non-3D advertising options. The latest technology in the industry. Request a quote for comprehensive details.",
     // videoSrc: videoSrc1, // Assign imported video
-     image: comingsoon,
+     image: seminyaksquare,
   },
 ];
 
