@@ -21,7 +21,7 @@ const ProjectCard = ({ index, name, description, image, videoSrc, onClick }) => 
     >
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-[#F9DC5C] p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-[#F9DC5C] p-5 rounded-2xl sm:w-[360px] w-full" //bg-[#F9DC5C] or bg-gradient-to-b from-[#FFD700] to-[#DAA520]
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -32,13 +32,14 @@ const ProjectCard = ({ index, name, description, image, videoSrc, onClick }) => 
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          {descriptionLines.map((line, idx) => (
-            <p key={idx} className="mt-1 text-secondary text-[14px]">
-              {line}
-            </p>
-          ))}
+          <h3 className="text-black font-bold text-[24px]">{name}</h3>
+            {descriptionLines.map((line, idx) => (
+              <p key={idx} className="mt-1 text-secondary text-[14px]">
+                {line}
+                </p>
+              ))}
         </div>
+
       </Tilt>
     </motion.div>
   );
