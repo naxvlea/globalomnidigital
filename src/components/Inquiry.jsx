@@ -21,10 +21,10 @@ const Inquiry = () => {
         alert("Failed to send your message. Please try again.");
       });
   };
-  // FFD768
+  // FFD768 or ebad31
   return (
     <div className="inquiry-modal mr-[-40px] mt-[160px] ">
-      <h2 className="text-2xl font-bold text-[#ebad31]  mb-[-20px] ml-[39px]">
+      <h2 className="text-2xl font-bold text-[#FFD768] mb-[-20px] ml-[39px]">
         Inquiry
       </h2>
       <form
@@ -55,7 +55,7 @@ const Inquiry = () => {
         />
         <button
           type="submit"
-          className="bg-[#ebad31] py-1 px-3 rounded-xl outline-none font-bold  text-white shadow-md text-sm"
+          className="bg-[#F9DC5C] py-1 px-3 rounded-xl outline-none font-bold  text-white shadow-md text-sm"
         >
           Send Message
         </button>
