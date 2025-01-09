@@ -42,12 +42,20 @@ const Footer = () => {
             <span>Global Omni Digital</span>
           </Link>
           <p className="ml-6 text-white">
+          <a
+            href="https://www.google.com/maps?q=PT GPAM"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white underline"
+          >
             Jl. Pararaton Raya No.9 <br />
             Kuta, Bali 80361
+          </a>
           </p>
+
         </div>
 
-        
+      
         <div className="lg:w-5/12 flex flex-col lg:flex-row flex-wrap justify-between gap-9 items-start mt-5 lg:mt-0">
           <div className="space-y-6 mr-[100px] ">
             <h4 className="kontak text-xl font-semibold">Contacts</h4>
