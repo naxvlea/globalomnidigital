@@ -64,28 +64,28 @@ const ComputersCanvas = () => {
           enableZoom={false}
           // maxPolarAngle={Math.PI / 2}
           // minPolarAngle={Math.PI / 2}
-        />
+        />                  
         <Stars
           radius={100}
           depth={50}
           count={5000}
           factor={4}
-          saturation={3}
+          saturation={3}  
           fade
         />
-        <ambientLight intensity={0.1} color="#AB7843" />
+        <ambientLight intensity={0.1} color="#FFD768" />
         <directionalLight position={[5, 5, 5]} intensity={0.5} color="#AB7843" />
         <directionalLight
           position={[-5, -5, -5]}
           intensity={1.0}
-          color="#AB7843"
+          color="#FFD768"
         />
         <directionalLight
           position={[-5, -5, -5]}
           intensity={1}
-          color="#AB7843"
+          color="#FFD768"
         />
-        <spotLight position={[0, 0, 10]} intensity={1} color={"#AB7843"} />
+        <spotLight position={[0, 0, 10]} intensity={1} color={"#white"} />
         <Paradox key={isMobile ? "mobile" : "desktop"} isMobile={isMobile} />
       </Suspense>
       <Preload all />
